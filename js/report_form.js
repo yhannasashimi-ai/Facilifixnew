@@ -1,0 +1,1 @@
+(()=>{(function(){const t=document.getElementById("reportForm"),e=document.getElementById("description"),o=document.getElementById("charCount");function n(){o.textContent=e.value.length}e.addEventListener("input",n),n(),t.addEventListener("submit",function(c){t.checkValidity()||(c.preventDefault(),t.reportValidity())})})();})();
